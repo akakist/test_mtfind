@@ -1,3 +1,6 @@
+#ifdef _WIN32
+#define  _CRT_SECURE_NO_WARNINGS 1
+#endif
 #include <mutex>
 #include <condition_variable>
 #include <deque>
